@@ -25,7 +25,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '20'
           cache: 'npm'
 
       - name: Clean install dependencies
@@ -34,10 +34,8 @@ jobs:
           rm -f package-lock.json
           npm cache clean --force
           npm install -g npm@latest
-          npm install --legacy-peer-deps
-          npm install ajv@latest
-          npm install ajv-keywords@latest
-
+          npm install
+          
       - name: Build project
         run: |
           export NODE_OPTIONS="--max_old_space_size=4096"
