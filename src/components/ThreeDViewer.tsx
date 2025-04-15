@@ -10,7 +10,7 @@ interface GLTFResult {
 
 const Model: FC = () => {
   const group = useRef<Group>(null);
-  const result = useGLTF('/animated.shirt.glb') as unknown as GLTFResult;
+  const result = useGLTF(`${process.env.PUBLIC_URL}/animated.shirt.glb`) as unknown as GLTFResult;
   const { scene } = result; // We don't need animations anymore
   const mousePosition = useRef<Vector2>(new Vector2());
   const scrollPosition = useRef(0);

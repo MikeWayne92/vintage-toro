@@ -11,7 +11,7 @@ const AboutSection: React.FC = () => {
           <p>Each piece is crafted with attention to detail and a commitment to quality that sets us apart in the world of contemporary fashion.</p>
         </div>
         <video className="about-video" autoPlay loop muted playsInline>
-          <source src="/VintageToro.walker.mp4" type="video/mp4" />
+          <source src={`${process.env.PUBLIC_URL}/VintageToro.walker.mp4`} type="video/mp4" />
         </video>
       </div>
     </section>
