@@ -4,7 +4,7 @@ A modern, responsive React-based website for Vintage Toro, featuring an elegant 
 
 ## Demo
 
-https://github.com/MikeWayne92/vintage-toro/assets/toro-demo.mov
+https://raw.githubusercontent.com/MikeWayne92/vintage-toro/main/assets/toro-demo.mov
 
 Experience our interactive 3D clothing viewer and smooth animations in action.
 
@@ -91,6 +91,25 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow is triggered when:
+
+1. Changes are pushed to the `main` branch
+2. The workflow is manually triggered from the Actions tab
+
+You can view the live site at: https://mikewayne92.github.io/vintage-toro
+
+### Manual Deployment
+
+If you need to deploy manually, you can trigger the workflow:
+
+1. Go to the repository's Actions tab
+2. Select the "Deploy to GitHub Pages" workflow
+3. Click "Run workflow"
+4. Select the branch you want to deploy from
+5. Click "Run workflow"
 
 ## Learn More
 

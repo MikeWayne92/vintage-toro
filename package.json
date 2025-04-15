@@ -2,6 +2,7 @@
   "name": "clothing-brand-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mikewayne92.github.io/vintage-toro",
   "dependencies": {
     "@react-three/drei": "^10.0.6",
     "@react-three/fiber": "^9.1.2",
