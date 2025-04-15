@@ -4,7 +4,7 @@ A modern, responsive React-based website for Vintage Toro, featuring an elegant 
 
 ## Demo
 
-https://github.com/YOUR_USERNAME/vintage-toro/assets/toro-demo.mov
+https://github.com/MikeWayne92/vintage-toro/assets/toro-demo.mov
 
 Experience our interactive 3D clothing viewer and smooth animations in action.
 
