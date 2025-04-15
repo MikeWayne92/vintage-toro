@@ -1,6 +1,53 @@
-# Getting Started with Create React App
+# Vintage Toro - Premium Vintage Clothing Website
+
+A modern, responsive React-based website for Vintage Toro, featuring an elegant design showcasing premium vintage clothing collections.
+
+## Features
+
+- Clean, minimalist design with focus on content
+- Responsive layout that works across all devices
+- Interactive product collection display
+- Smooth animations and transitions
+- Contact form for customer inquiries
+- About section highlighting brand story
+- Easy navigation with a fixed header
+
+## Project Structure
+
+```
+src/
+  ├── components/
+  │   ├── Navbar.tsx         # Navigation component
+  │   ├── HeroSection.tsx    # Landing page hero section
+  │   ├── AboutSection.tsx   # About section with brand story
+  │   ├── CollectionSection.tsx  # Product collection display
+  │   └── Modal.tsx         # Modal component for product details
+  ├── styles/
+  │   └── *.css            # Component-specific styles
+  └── assets/
+      └── images/          # Image assets
+```
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
 ## Available Scripts
 
@@ -31,13 +78,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
